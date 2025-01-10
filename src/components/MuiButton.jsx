@@ -34,8 +34,8 @@ export default function MuiButton() {
      </Stack>
      <Stack direction='row'>
       {/*The variant should only be apply to button group and not the individual buttons*/}
-      <ButtonGroup variant='outlined' orientation='vertical' size=''>
-        <Button>left</Button>
+      <ButtonGroup variant='outlined' orientation='vertical' size='small' color='success' aria-label='alignment button group'>
+        <Button onClick={()=>alert("Left button is clicked")}>left</Button>
         <Button>center</Button>
         <Button>right</Button>
       </ButtonGroup>
