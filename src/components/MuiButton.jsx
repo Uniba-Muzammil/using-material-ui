@@ -33,7 +33,8 @@ export default function MuiButton() {
         </IconButton>
      </Stack>
      <Stack direction='row'>
-      <ButtonGroup variant='outlined'>
+      {/*The variant should only be apply to button group and not the individual buttons*/}
+      <ButtonGroup variant='outlined' orientation='vertical' size=''>
         <Button>left</Button>
         <Button>center</Button>
         <Button>right</Button>
