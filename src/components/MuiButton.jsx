@@ -44,14 +44,13 @@ export default function MuiButton() {
         <Button>right</Button>
       </ButtonGroup>
      </Stack>
+     <Stack>
      <ToggleButtonGroup aria-label='text-formatting'>
       <ToggleButton value='bold' aria-label='bold'></ToggleButton>
-      <ToggleButton></ToggleButton>
-      <ToggleButton></ToggleButton>
-
-
+      <ToggleButton value='italic' aria-label='italic'></ToggleButton>
+      <ToggleButton value='underlined' aria-label='underlined'></ToggleButton>
      </ToggleButtonGroup>
-
+     </Stack>
      </Stack>
     </div>
   );
