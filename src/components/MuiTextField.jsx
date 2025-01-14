@@ -4,7 +4,6 @@ export default function MuiTextField() {
   return (
     <div>
       
-      <h1></h1>
     </div>
   );
 }
