@@ -8,6 +8,9 @@ export default function MuiTextField() {
         <TextField label='name' variant='outlined'/>
         <TextField label='name' variant='filled'/>
         <TextField label='name' variant='standard'/>
+      </Stack>
+      <Stack spacing={2} direction='row'>
+      <TextField label='Small secondary' size='small' color='secondary'/>
 
       </Stack>
     </Stack>
