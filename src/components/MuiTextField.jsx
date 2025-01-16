@@ -5,7 +5,9 @@ export default function MuiTextField() {
   return (
     <Stack spacing={4}>
       <Stack spacing={2} direction='row'>
-        <TextField label='name'/>
+        <TextField label='name' variant='outlined'/>
+        <TextField label='name' variant='filled'/>
+        <TextField label='name' variant='standard'/>
 
       </Stack>
     </Stack>
