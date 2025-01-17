@@ -1,5 +1,5 @@
 import React from 'react';
-import {Stack, TextField} from '@mui/material'
+import {Stack, TextField, InputAdornment} from '@mui/material'
 import { useState } from 'react';
 
 export default function MuiTextField() {
@@ -27,8 +27,23 @@ export default function MuiTextField() {
       label="Password"
       type='password'
       helperText="Do not share your password with anyone"
-      
+      disabled
       />
+      <TextField label='Read only' InputProps={{readOnly: true}}/>
+      <Stack direction='row' spacing={2}>
+        <TextField label='Amount'
+         InputProps={
+          {startAdornment:
+         <InputAdornment position='start'>$</InputAdornment>}
+        }
+        />
+        <TextField label='Weight'
+         InputProps={
+          {endAdornment:
+         <InputAdornment position='end'>kg</InputAdornment>}
+        }
+        />
+      </Stack>
       </Stack>
     </Stack>
   );
