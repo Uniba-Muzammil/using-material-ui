@@ -5,6 +5,7 @@ export default function MuiSelect() {
   return (
     <div>
       <box></box>
+      <div></div>
     </div>
   );
 }
