@@ -1,8 +1,14 @@
 import React from 'react';
-import {box, TextField, MenuItem} from '@mui/material'
+import {Box, TextField, MenuItem} from '@mui/material'
 
 export default function MuiSelect() {
   return (
-      <box></box>
+      <Box width='250px'>
+        <TextField>
+
+        </TextField>
+      </Box>
+      
+    
   );
 }
