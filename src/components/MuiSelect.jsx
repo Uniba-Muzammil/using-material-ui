@@ -4,7 +4,8 @@ import {Box, TextField, MenuItem} from '@mui/material'
 export default function MuiSelect() {
   return (
       <Box width='250px'>
-        <TextField>
+        <TextField label>
+          <TextField>G</TextField>
 
         </TextField>
       </Box>
